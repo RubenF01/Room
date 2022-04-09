@@ -13,10 +13,30 @@ const NavBar = () => {
       <div className="absolute z-50 flex items-center pt-10 lg:pt-14 pl-10 lg:pl-14">
         <Logo className="fill-white" />
         <nav className="text-white text-xs lg:text-base ml-8 2xl:ml-16 space-x-6 2xl:space-x-10">
-          <a href="#">home</a>
-          <a href="#">shop</a>
-          <a href="#">about</a>
-          <a href="#">contact</a>
+          <a
+            className="hover:after:content-[''] hover:after:bg-white hover:after:h-[2px] hover:after:w-5 hover:after:absolute after:-translate-x-8 after:translate-y-2 hover:after:bottom-0"
+            href="#"
+          >
+            home
+          </a>
+          <a
+            className="hover:after:content-[''] hover:after:bg-white hover:after:h-[2px] hover:after:w-5 hover:after:absolute after:-translate-x-7 after:translate-y-2 hover:after:bottom-0"
+            href="#"
+          >
+            shop
+          </a>
+          <a
+            className="hover:after:content-[''] hover:after:bg-white hover:after:h-[2px] hover:after:w-5 hover:after:absolute after:-translate-x-8 after:translate-y-2 hover:after:bottom-0"
+            href="#"
+          >
+            about
+          </a>
+          <a
+            className="hover:after:content-[''] hover:after:bg-white hover:after:h-[2px] hover:after:w-5 hover:after:absolute after:-translate-x-9 after:translate-y-2 hover:after:bottom-0"
+            href="#"
+          >
+            contact
+          </a>
         </nav>
       </div>
     );
