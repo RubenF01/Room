@@ -11,7 +11,7 @@ const Hero = () => {
     return (
       <div className="relative flex flex-1 items-stretch">
         <NavBar />
-        <div>
+        <div className="2xl:grow 2xl:w-[40%]">
           <img
             className="h-full w-full"
             src="/desktop-image-hero-1.jpg"
@@ -22,7 +22,7 @@ const Hero = () => {
           <h1 className="font-bold text-3xl xl:text-4xl pb-10">
             Discover innovative ways to decorate
           </h1>
-          <p className="text-xs xl:text-sm pb-14 text-darkGray">
+          <p className="text-xs xl:text-sm pb-10 text-darkGray">
             We provide unmatched quality, comfort, and style for property owners
             across the country. Our expertes combine form and function in
             bringing your vision to life. Create a room in your own style with
