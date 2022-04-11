@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="lg:flex items-stretch">
+    <div className="lg:flex-col xl:flex-row lg:flex items-stretch">
       <img
         className="object-fill w-full flex-auto"
         src="/image-about-dark.jpg"

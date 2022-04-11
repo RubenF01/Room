@@ -15,7 +15,7 @@ const Hero = () => {
     return (
       <div className="relative flex flex-1 items-stretch">
         <NavBar />
-        <figure className="2xl:grow 2xl:w-[40%]">
+        <figure className="lg:w-[50%] xl:grow xl:w-[40%]">
           <img
             className="h-full w-full  object-cover"
             src={desktopImage}

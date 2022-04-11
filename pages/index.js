@@ -80,7 +80,7 @@ export default function Home() {
           previousSlide,
           activeSlide,
         }}
-        className="font-spartan flex flex-col min-h-screen relative"
+        className="font-spartan flex flex-col relative"
       >
         <HamburgerMenu />
         <Hero />
