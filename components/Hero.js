@@ -15,7 +15,7 @@ const Hero = () => {
     return (
       <div className="relative flex flex-1 items-stretch">
         <NavBar />
-        <figure className="lg:w-[50%] xl:grow xl:w-[40%]">
+        <figure className="lg:w-[50%] xl:grow xl:w-[47%] 2xl:w-[20%]">
           <img
             className="h-full w-full  object-cover"
             src={desktopImage}
@@ -23,8 +23,10 @@ const Hero = () => {
           />
         </figure>
         <div className="py-36 relative px-28 flex-1">
-          <h1 className="font-bold text-3xl xl:text-4xl pb-10">{title}</h1>
-          <p className="text-xs xl:text-sm pb-10 text-darkGray">
+          <h1 className="font-bold text-3xl xl:text-4xl 2xl:text-6xl 2xl:font-semibold pb-10">
+            {title}
+          </h1>
+          <p className="text-xs xl:text-sm 2xl:text-lg 2xl:max-w-xl pb-10 text-darkGray">
             {description}
           </p>
           <a
